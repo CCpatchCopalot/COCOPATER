@@ -1,0 +1,1 @@
+new RegExp('"\\u', 'u').exec(1)
