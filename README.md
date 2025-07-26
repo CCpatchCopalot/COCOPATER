@@ -1,4 +1,9 @@
 # CoCoPATER
+
+## ⭐ New Experiment and Results Update For Rebutall
+[Rebuttal](https://github.com/CCpatchCopalot/COCOPATER/tree/main/4.Rebuttal)
+------------------------------
+
 With the rapid development of open-source software (OSS), the number of OSS vulnerabilities has been increasing rapidly. To mitigate such security risks, vulnerability patches are deployed across a wide range of security tasks. However, patches may contain noncritical changes. Such tangled patches can hurt the effectiveness and efficiency of these security tasks. Existing approaches of identifying critical changes often lack precise inter-procedural analysis, work at a coarse granularity, or do not scale well to large and complex patches, limiting their effectiveness.
 
 To address these limitations, we propose a novel approach CoCoPATER to identify critical changes in a vulnerability patch at the statement level. CoCoPATER decompose critical changes identification into two phases, i.e., function-level and statement-level phases. CoCoPATER follows a filtering-then-recovering strategy in each phase to first pinpoint a necessary minimal set of critical changes by semantic-enhanced LLM, then recover any semantically similar and functionally related critical changes. Our evaluation demonstrates that CoCoPATER outperforms state-of-the-art approaches by at least 0.42 (95%) at F1-score. Moreover, by integrating CoCoPATER with tools of three downstream tasks (i.e., vulnerable version identification, patch backporting and recurring vulnerability detection), those tools show the improvement both in effectiveness and efficiency, underscoring the value of identifying critical changes in vulnerability patches.
