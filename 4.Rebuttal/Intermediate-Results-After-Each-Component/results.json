@@ -1,0 +1,52 @@
+[
+    {
+      "Phase": "Phase-1",
+      "Component": "Equivalent-Transformation",
+      "PreFunc": 0.53,
+      "RecFunc": 1.00,
+      "F1Func": 0.69,
+      "PreStmt": 0.43,
+      "RecStmt": 0.72,
+      "F1Stmt": 0.54
+    },
+    {
+      "Phase": "Phase-1",
+      "Component": "Core-Critical-Functions-Extraction",
+      "PreFunc": 0.93,
+      "RecFunc": 0.76,
+      "F1Func": 0.84,
+      "PreStmt": 0.57,
+      "RecStmt": 0.64,
+      "F1Stmt": 0.60
+    },
+    {
+      "Phase": "Phase-1",
+      "Component": "Critical-Function-Chains-Construction",
+      "PreFunc": 0.87,
+      "RecFunc": 0.83,
+      "F1Func": 0.85,
+      "PreStmt": 0.54,
+      "RecStmt": 0.71,
+      "F1Stmt": 0.61
+    },
+    {
+      "Phase": "Phase-2",
+      "Component": "Core-Critical-Statement-Sequences-Extraction",
+      "PreFunc": 0.91,
+      "RecFunc": 0.79,
+      "F1Func": 0.85,
+      "PreStmt": 0.86,
+      "RecStmt": 0.63,
+      "F1Stmt": 0.73
+    },
+    {
+      "Phase": "Phase-2",
+      "Component": "Critical-Statements-Expansion",
+      "PreFunc": 0.92,
+      "RecFunc": 0.87,
+      "F1Func": 0.89,
+      "PreStmt": 0.84,
+      "RecStmt": 0.89,
+      "F1Stmt": 0.86
+    }
+  ]
