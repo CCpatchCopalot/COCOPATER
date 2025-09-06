@@ -1,0 +1,18 @@
+{
+    "w/ CoCoPater": {
+      "T(m)": 2.3,
+      "F1f": 0.95,
+      "F1s": 0.93,
+      "CC": { "count": 11, "percent": "92%" },
+      "CR1": { "count": 12, "percent": "100%" },
+      "CR2": { "count": 11, "percent": "92%" }
+    },
+    "w/o CoCoPater": {
+      "T(m)": 9.8,
+      "F1f": 0.84,
+      "F1s": 0.72,
+      "CC": { "count": 6, "percent": "50%" },
+      "CR1": { "count": 12, "percent": "100%" },
+      "CR2": { "count": 8, "percent": "72%" }
+    }
+  }

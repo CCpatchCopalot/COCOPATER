@@ -1,0 +1,9 @@
+FROM ubuntu:22.04
+
+ENV POC_PATH /poc
+
+
+RUN mkdir -p $POC_PATH
+
+WORKDIR $POC_PATH
+

@@ -1,0 +1,82 @@
+[
+    {
+      "Phase": "Phase-1",
+      "Component": "w/o-Equivalent-Transformation",
+      "PreFunc": 0.88,
+      "RecFunc": 0.75,
+      "F1Func": 0.81,
+      "PreStmt": 0.82,
+      "RecStmt": 0.80,
+      "F1Stmt": 0.81
+    },
+    {
+      "Phase": "Phase-1",
+      "Component": "w/-Core-Critical-Functions-Extraction(GPT-3.5)",
+      "PreFunc": 0.90,
+      "RecFunc": 0.82,
+      "F1Func": 0.86,
+      "PreStmt": 0.84,
+      "RecStmt": 0.88,
+      "F1Stmt": 0.86
+    },
+    {
+      "Phase": "Phase-1",
+      "Component": "w/o-Critical-Function-Chains-Construction",
+      "PreFunc": 0.75,
+      "RecFunc": 0.55,
+      "F1Func": 0.63,
+      "PreStmt": 0.76,
+      "RecStmt": 0.73,
+      "F1Stmt": 0.74
+    },
+    {
+      "Phase": "Phase-1",
+      "Component": "w/o-Phase-1",
+      "PreFunc": 0.72,
+      "RecFunc": 0.78,
+      "F1Func": 0.75,
+      "PreStmt": 0.72,
+      "RecStmt": 0.80,
+      "F1Stmt": 0.76
+    },
+    {
+      "Phase": "Phase-2",
+      "Component": "w/o-Candidate-Critical-Statement-Sequences-Extraction",
+      "PreFunc": 0.88,
+      "RecFunc": 0.84,
+      "F1Func": 0.86,
+      "PreStmt": 0.76,
+      "RecStmt": 0.69,
+      "F1Stmt": 0.72
+    },
+    {
+      "Phase": "Phase-2",
+      "Component": "w/-Core-Critical-Statement-Sequences-Extraction(GPT-3.5)",
+      "PreFunc": 0.91,
+      "RecFunc": 0.83,
+      "F1Func": 0.87,
+      "PreStmt": 0.83,
+      "RecStmt": 0.86,
+      "F1Stmt": 0.84
+    },
+    {
+      "Phase": "Phase-2",
+      "Component": "w/o-Critical-Statements-Expansion",
+      "PreFunc": 0.91,
+      "RecFunc": 0.75,
+      "F1Func": 0.82,
+      "PreStmt": 0.86,
+      "RecStmt": 0.63,
+      "F1Stmt": 0.73
+    },
+    {
+      "Phase": "Phase-2",
+      "Component": "w/o-Phase-2",
+      "PreFunc": 0.87,
+      "RecFunc": 0.83,
+      "F1Func": 0.85,
+      "PreStmt": 0.54,
+      "RecStmt": 0.67,
+      "F1Stmt": 0.61
+    }
+  ]

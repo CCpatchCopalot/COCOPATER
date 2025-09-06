@@ -1,0 +1,59 @@
+{
+    "all": {
+        "git": {
+            "cr_raw": 0.11,
+            "fr_raw": 0.06,
+            "cr_cc": 0.42,
+            "fr_cc": 0.33,
+            "fr_ratio": 4.5,
+            "cr_ratio": 2.82
+        },
+        "tsbport": {
+            "cr_raw": 0.49,
+            "fr_raw": 0.41,
+            "cr_cc": 0.83,
+            "fr_cc": 0.81,
+            "fr_ratio": 0.98,
+            "cr_ratio": 0.69
+        },
+        "count": 104
+    },
+    "correct": {
+        "git": {
+            "cr_raw": 0.12,
+            "fr_raw": 0.07,
+            "cr_cc": 0.45,
+            "fr_cc": 0.35,
+            "fr_ratio": 4.0,
+            "cr_ratio": 2.75
+        },
+        "tsbport": {
+            "cr_raw": 0.5,
+            "fr_raw": 0.42,
+            "cr_cc": 0.83,
+            "fr_cc": 0.82,
+            "fr_ratio": 0.95,
+            "cr_ratio": 0.66
+        },
+        "count": 92
+    },
+    "incorrect": {
+        "git": {
+            "cr_raw": 0.0,
+            "fr_raw": 0.0,
+            "cr_cc": 0.25,
+            "fr_cc": 0.17,
+            "fr_ratio": "nan",
+            "cr_ratio": "nan"
+        },
+        "tsbport": {
+            "cr_raw": 0.42,
+            "fr_raw": 0.33,
+            "cr_cc": 0.83,
+            "fr_cc": 0.75,
+            "fr_ratio": 1.27,
+            "cr_ratio": 0.98
+        },
+        "count": 12
+    }
+}
